@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finzo - Agriculture Investment Innovation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        section {
+            padding: 20px;
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        form {
+            margin-top: 20px;
+        }
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to Finzo</h1>
+    <p>The Future of Agriculture Investment</p>
+</header>
+
+<section>
+    <h2>About Our Innovation</h2>
+    <p>At Finzo, we are revolutionizing the agriculture investment landscape. Our innovative platform connects investors with sustainable agricultural projects, promoting food security and economic growth. By investing in agriculture through Finzo, you're not just making profits, you're contributing to a greener and more prosperous future.</p>
+
+    <p>Join us in supporting farmers and agricultural innovators, while growing your wealth through smart, secure investments. Whether you are new to agriculture investments or an experienced investor, Finzo offers a wide range of opportunities tailored to your needs.</p>
+
+    <h3>Contact Us</h3>
+    <p>If you have any questions or would like to learn more about how you can invest in agriculture with Finzo, feel free to send us a message below:</p>
+
+    <form action="mailto:olayinka10172007@gmail.com" method="post" enctype="text/plain">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" placeholder="Type your message here" required></textarea>
+
+        <input type="submit" value="Send Message">
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2024 Finzo. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
